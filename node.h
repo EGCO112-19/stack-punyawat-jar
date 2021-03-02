@@ -1,8 +1,9 @@
 #ifndef linkedlist_h
 #define linkedlist_h
-struct node{
+struct node
+{
     char data;
-    struct nåode *nextPtr;
+    struct node *nextPtr;
 };
 
 typedef struct node Node;
