@@ -55,6 +55,6 @@ int main(int argc, char **argv){
         pop_all(&s);
         printf("\n========================================================\n");
     }
-
+  printf("\n==END==\n");
 return 0;
 }
