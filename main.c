@@ -43,7 +43,6 @@ int main(int argc, char **argv){
                 break;
             }
         }
-        printf("\n========================================================\n");
         printf("\nThe size is : %d and check : %d\n",s.size,check);
         if(s.size!=0 || check==1){
             printf("The parentheses do not match for '%s'\n",argv[i]);
