@@ -37,8 +37,8 @@ void pop_all(StackPtr s){
         value = t->data;
         printf("Popping : '%c'\n",value);
         s->top = t->nextPtr;
-        free(t);
         t = s->top;
+        free(t);
     }
     s->size=0;
         
