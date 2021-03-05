@@ -20,7 +20,7 @@ void push(StackPtr s, char value){
 
 char pop(StackPtr s){
     NodePtr t =s->top;
-    char value='X';
+    char value='\0';
     if(s->top != NULL){
         value=t->data;
         s->top=t->nextPtr;
